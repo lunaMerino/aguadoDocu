@@ -1,6 +1,29 @@
-.custom-card {
-  border: 1px solid #ccc;
-  padding: 1rem;
-  border-radius: 0.75rem;
-  background: #9b1818;
+h1, h2, h3 {
+  color: #007A33;
+}
+
+/* Cambia el color del título en la barra de navegación (header) */
+header .site-title {
+  color: #2e7d32;
+}
+
+/* Sidebar group label */
+nav[aria-label="Sidebar"] .group > h2 {
+  color: #2e7d32 !important;
+}
+
+/* CTA button en la home */
+[data-page-type='home'] .starlight-cta a {
+  background-color: #2e7d32 !important;
+  color: white !important;
+}
+
+[data-page-type='home'] .starlight-cta a:hover {
+  background-color: #16a34a !important;
+}
+
+/* Iconos sociales */
+header a[data-social-icon] svg {
+  color: #2e7d32 !important;
+  fill: currentColor !important;
 }
