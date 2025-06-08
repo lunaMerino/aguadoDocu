@@ -6,11 +6,11 @@ import starlight from '@astrojs/starlight';
 export default defineConfig({
 	integrations: [
 		starlight({
-			title: 'aguadoSoluciones',
+			title: 'Aguado Soluciones',
 			customCss: [
         		'./src/styles/global.css',
       		],
-			social: [{ icon: 'github', label: 'GitHub', href: 'https://github.com/withastro/starlight' }],
+			social: [{ icon: 'github', label: 'GitHub', href: 'https://github.com/lunaMerino/aguadoDocu.git' }],
 			sidebar: [
 				{
 					label: 'Introducción',
